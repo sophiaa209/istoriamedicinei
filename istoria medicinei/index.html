@@ -1,0 +1,206 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Istoria Medicinei</title>
+<link rel="icon" type="image/x-icon" href="imagini/logo3.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap">
+<link rel="stylesheet" href="style_files/index.css">
+</head>
+
+
+<body style="background-repeat: no-repeat;">
+
+<div class="bara" id="bara1">
+    <img id="caduceu" alt="caduceu" src="imagini/logo3.png">
+<a id="titlumare" class= "titluri" href="index.html" >ISTORIA MEDICINEI</a>
+</div>
+
+<div class="bara" id="bara2">
+<a id="premiinobel" class="titlurimici" href="premiinobel.html">Premii Nobel</a>
+<a id="epidemii" class="titlurimici" href="epidemii.html">Epidemii</a>
+<a id="test" class="titlurimici" href="test.html">Test</a>
+<a id="bibliografie" class="titlurimici" href="bibliografie.html">Bibliografie</a>
+</div>
+
+
+
+
+<div class="slideshow">
+    <img src="images/slide2.jpeg" alt="slide 2"/>
+    <img src="images/slide3.png" alt="slide 3"/>
+    <img src="images/slide4.png" alt="slide 4"/>
+</div>
+<div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="slide fade">
+      <img src="imagini/slide2.png" alt="slide2" id="slide2">
+    </div>
+  
+    <!-- Slide 2 -->
+    <div class="slide fade">
+      <img src="imagini/slide3.png" alt="slide3" id="slide3">
+    </div>
+  
+    <!-- Slide 3 -->
+    <div class="slide fade">
+      <img src="imagini/slide4(1).png" alt="slide4" id="slide4">
+    </div>
+  </div>
+<script>
+    let slideIndex = 0;
+  
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2500); // Change image every 3 seconds
+    }
+  
+    showSlides(); // Initial call to start the slideshow
+  </script>
+
+  
+<img src="imagini/lectieanato.jpg" alt="lectie anatomie" id="lectie">
+  
+<div id="intro_div" class="titlurimici textdiv">
+  <p>
+    <pre id="tintro">
+      Istoria medicinei este foarte complexă, 
+      întrucât medicina era foarte diferită
+      la începuturi față de cum este cunoscută 
+      acum. 
+
+      Pe vremuri, cei care vindecau 
+      bolile nu se implicau numai pe partea 
+      științifică, dar și spirituală, susținând 
+      ritualuri specifice. 
+
+      Ulterior, medicina a evoluat și s-a centrat
+      pe partea de știință, deși în unele zone 
+      încă se mai practică și pe parte spirituală.
+    
+    </pre>
+  </p>
+</div>
+
+
+ 
+
+
+<div id="intro_div2" class="titlurimici textdiv">
+  <p>
+    <pre id="tintro2">
+<span id="stiati">ȘTIAȚI CĂ?!</span>
+
+Există 3 izvoare principale pentru studiul 
+medicinei istorice:
+
+<li>paleopatologia, care este legată de 
+  urmele proceselor de vindecare și este 
+  evidențiată prin schelete preistorice 
+  care se studiază cu ajutorul mijloacelor 
+  moderne de investigare
+</li>
+
+<li>arheologia medico-istorică, care 
+  are legătiră cu obiectele referitoare
+  la igiena și practica medicală
+</li>
+
+<li>etnoiatria, care studiază practicile
+  medicale ale populațiilor care se 
+  află în prezent în treptele inferioare
+  ale societății 
+</li>
+    </pre>
+  </p>
+</div>
+
+
+<div class="orb" id="orb1">
+  <img id="hipocrate" src="imagini/hipocrate2.png" alt="hipocrate">
+   <p id="orbhipo" class="titlurimici">
+    HIPOCRATE
+   </p>
+</div>
+
+<img id="neandertal" src="imagini/neandertal.jpeg" alt="neandertal">
+
+<div id="hipocrate_div" class="titlurimici textdiv">
+  <p>
+    <pre id="thipocrate">
+      Hipocrate a fost un medic din Grecia antică 
+      care a pus bazele medicinii ca disciplină 
+      separată de religie și superstiții. 
+      El a subliniat importanța observării atente 
+      a pacienților și a adoptării unui comportament 
+      etic în practică. Cel mai cunoscut text asociat 
+      cu el este "Jurământul lui Hipocrate", un set 
+      de principii etice care guvernează 
+      comportamentul medicilor.
+      
+      De asemenea, Hipocrate a promovat ideea că 
+      bolile nu sunt pedepse divine, ci au cauze 
+      naturale, și a insistat asupra unui tratament 
+      bazat pe dietă, exercițiu și igienă, ceea ce 
+      reprezenta un mare progres față de abordările 
+      anterioare, care se bazau pe magia și
+      religiile antice.
+    
+    </pre>
+  </p>
+</div>
+
+<div id="elsidron_div" class="titlurimici textdiv">
+  <p>
+    <pre id="telsidron">
+      Legat de medicina preistorică este demn 
+      de menționat studiul de la Peștera 
+      El Sidrón din Spania, care prin 
+      investigarea calcarului dentar, 
+      evidențiază faptul că neandertalii 
+      cunoșteau, acum aproximativ 47000 de ani,
+      proprietățile medicinale ale plantelor.
+    
+
+      Această peșteră este renumită pentru
+      rămășișele oaselor neandertalilor,
+      aici aflându-se cel puțin 13 indivizi.
+    </pre>
+  </p>
+</div>
+
+<a id="wikiverbina" href="https://www.drmax.ro/articole/verbina-beneficii-si-modalitati-de-a-o-utiliza">
+<div class="orb" id="orbverbina">
+  <img src="imagini/verbina.jpg" alt="verbina" id="verbina">
+  <p id="torbverbina" class="titlurimici">
+    PLANTA VERBINA
+   </p>
+</div>
+</a>
+
+<div class="bara" id="barajos">
+<p id="autor" ><pre class="titlurimici">                Autor: Ivan Maria-Sofia            Colegiul Național "Ion Luca Caragiale" Ploiești                     Clasa 9E                      Profesor Coordonator Băjenaru Carmen</pre> </p>
+</div>
+
+<img src="imagini/flori.jpg" alt="flori" id="flori">
+
+<div id="vraci" class="titlurimici textdiv">
+  <p>
+    <pre id="tvraci">
+    Vracii erau ca niște medici din zilele
+    noastre, doar că nu erau implicați mult
+    pe partea științifică, ci mai mult făceau
+    ritualuri, administrau tincturi și plante,
+    făceau băi speciale și "alungau spiritele rele"
+    </pre>
+  </p>
+</div>
+</body>
+</html>

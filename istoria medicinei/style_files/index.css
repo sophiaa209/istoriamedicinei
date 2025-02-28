@@ -1,0 +1,652 @@
+#caduceu{
+    height:60px;
+    width:60px;
+    position:relative;
+    top:10%;
+    left:4%;
+    background-color: transparent;
+}
+
+body{
+    background-color:rgba(226, 213, 187, 0.738);
+}
+
+.titluri{
+    font-family:Work Sans;
+    background-attachment: fixed;
+    text-decoration: none;
+color: rgb(246, 215, 157);
+height: 60px;
+font-size:25px;
+}
+
+
+#titlumare:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(223, 148, 35); /*umbra textului*/
+
+}
+
+#titlumare{
+    text-shadow: 2px 2px 4px rgba(44, 44, 44, 0.7); /*umbra textului*/
+    position:relative;
+    left:6%;
+    top:-25%;
+}
+
+.titlurimici{
+    font-family:Work Sans;
+    background-attachment: fixed;
+    text-decoration: none;
+    color:rgb(52, 52, 52);
+    position:relative;
+    font-size:17px;
+}
+
+.titlurimici:hover{
+    text-decoration: underline;
+    
+}
+
+#preistorie{
+    left:33%;
+    top:30%;
+}
+
+#premiinobel{
+    left:36%;
+    top:30%;
+}
+
+#epidemii{
+    left:40%;
+    top:30%;
+}
+
+#tratamente{
+    top:30%;
+    left:44%;
+}
+
+#test{
+    top:30%;
+    left:47%;
+}
+
+#bibliografie{
+    top:30%;
+    left:53%;
+}
+.bara{
+width:1600px;
+height:64px;
+position:absolute;
+
+}
+
+#bara1{
+left:0%;
+top:0%;
+background-color: rgb(135, 2, 2);
+height:74px;
+}
+
+#bara2{
+    left:0%;
+    top: 10.1%;    
+    background-color: rgb(226, 213, 187);
+}
+
+#slide2{
+position:absolute;
+width:1100px;
+height:720px;
+left:0%;
+top:18.9%;
+}
+
+#slide3{
+    position:absolute;
+width:1100px;
+height:690px;
+left:0%;
+top:18.9%;
+}
+
+#slide4{
+    position:absolute;
+width:1100px;
+height:720px;
+left:0%;
+top:18.9%;
+}
+
+#lectie{
+    position:absolute;
+    height:auto;
+    width:auto;
+    left:4%;
+    top:125%;
+}
+  
+#lectie:hover{
+    filter:brightness(75%);
+}
+.textdiv{
+    position:absolute;
+    left:40%;
+    top:110%;
+    border-radius: 20%;
+    height:350px;
+    width:425px;
+}
+
+#intro_div{
+    background-color: rgba(226, 213, 187, 0.738);
+    position:absolute;
+    top:125%;
+    left:38%;
+}
+
+#tintro{
+    position:absolute;
+    top:7%;
+    left:-10%;
+}
+
+#intro_div:hover{
+    background-color:blanchedalmond;
+}
+
+#tintro2{
+    position:absolute;
+    top:7%;
+    left:3%;
+}
+
+#intro_div2{
+    border-radius:0%;
+    height:722px;
+    background-color:rgba(226, 213, 187, 0.738);
+    
+    position:absolute;
+    top:18.9%;
+    left:72.7%;
+}
+
+#intro_div2:hover{
+    background-color:blanchedalmond;
+}
+
+@keyframes sus_jos{
+
+}
+
+#textstiati{
+    position:absolute;
+    top:20%;
+    left:74%;
+}
+
+#titlustiati{
+    font-size:30px;
+}
+
+#hipocrate{
+    position:absolute;
+    top:10%;
+    left:10%;
+    height:320px;
+    width:320px;
+    border-radius:50%;
+}
+
+#stiati{
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+#orange_green_orb{
+    animation: spin_orange_green 2s linear infinite;
+    left:77%;
+    margin-top:140px;
+    width:250px;
+    height:250px;
+
+    box-shadow:inset 0 0 50px #fff,
+    inset 20px 0 60px rgb(255, 123, 0),
+    inset -20px 0 60px rgb(26, 107, 1),
+    inset 20px 0 300px rgb(255, 123, 0),
+    inset -20px 0 300px rgb(26, 107, 1),
+    0 0 50px #fff,
+    -10px 0 60px rgb(255, 123, 0),
+    10px 0 60px rgb(26, 107, 1);
+}
+
+#orange_green_orb:hover{
+    filter:brightness(120%);
+    width:260px;
+    height:260px;
+}
+
+.orb{
+    margin:auto;
+    border-radius:50%;
+    position:absolute;
+    }
+
+    @keyframes spin_orange_green{
+        0% {
+            top:80px;
+        }
+        25%{
+            top:82px;
+        }
+        50%{
+            top:90px;
+        }
+        75%{
+            top:87px;
+        }
+        100%{
+            transform:rotate(360deg);
+            top:80px;
+        }
+    }
+
+    #orb1{
+        animation: spin_orb1 2s linear infinite;
+        left:70%;
+        margin-top:140px;
+        width:400px;
+        height:400px;
+    
+        box-shadow:inset 0 0 50px #fff,
+        inset 20px 0 60px rgb(223, 193, 165),
+        inset -20px 0 60px rgb(26, 107, 1),
+        inset 20px 0 300px rgb(223, 193, 165),
+        inset -20px 0 300px rgb(26, 107, 1),
+        0 0 50px #fff,
+        -10px 0 60px rgb(223, 193, 165),
+        10px 0 60px rgb(26, 107, 1);
+    }
+
+    @keyframes spin_orb1{
+        0% {
+            top:100%;
+        }
+        25%{
+            top:102%;
+        }
+        50%{
+            top:105%;
+        }
+        75%{
+            top:102%;
+        }
+        100%{
+         
+            top:100%;
+        }
+    }
+
+    #orb1:hover{
+        filter:brightness(120%);
+      
+    }
+
+    #pre1{
+        background-color:antiquewhite;
+        height:500px;
+        width:500px;
+    }
+
+   #orbhipo{
+    font-size:20px;
+    position:absolute;
+    top:85%;
+    left:38%;
+   }
+
+   #neandertal{
+    position:absolute;
+    top:186%;
+    left:39%;
+    height:400px;
+    width:400px;
+   }
+
+   #neandertal:hover{
+filter:brightness(75%);
+   }
+
+   #hipocrate_div{
+    background-color: rgba(226, 213, 187, 0.738);
+  top:183%;
+  left:68%;
+  height:450px;
+  width:470px;
+}
+
+   #hipocrate_div:hover{
+text-decoration: none;
+background-color: antiquewhite;
+   }
+
+   #thipocrate{
+    position:absolute;
+    top:10%;
+    left:-7%;
+   }
+
+   #elsidron_div{
+    background-color: rgba(226, 213, 187, 0.738);
+    position:absolute;
+    top:187%;
+    left:5%;
+    height:350px;
+    width:420px;
+   }
+   #elsidron_div:hover{
+    background-color: antiquewhite;
+   }
+   #telsidron{
+    position:absolute;
+    top:12%;
+    left:-7%;
+   }
+
+
+   #verbina{
+    filter:opacity(90%);
+height:300px;
+width:300px;
+border-radius:50%;
+position:absolute;
+top:12%;
+left:12%;
+   }
+   #orbverbina{
+    animation: spin_orbverbina 2s linear infinite;
+    left:6%;
+    margin-top:140px;
+    width:400px;
+    height:400px;
+
+    box-shadow:inset 0 0 50px #fff,
+    inset 20px 0 60px rgb(223, 193, 165),
+    inset -20px 0 60px rgb(198, 64, 175),
+    inset 20px 0 300px rgb(223, 193, 165),
+    inset -20px 0 300px rgb(198, 64, 175),
+    0 0 50px #fff,
+    -10px 0 60px rgb(223, 193, 165),
+    10px 0 60px rgb(198, 64, 175);
+}
+
+@keyframes spin_orbverbina{
+    0% {
+        top:220%;
+    }
+    25%{
+        top:222%;
+    }
+    50%{
+        top:225%;
+    }
+    75%{
+        top:222%;
+    }
+    100%{
+     
+        top:220%;
+    }
+}
+
+#orbverbina:hover{
+    text-decoration: none;
+    background-color: antiquewhite;
+    filter:brightness(110%);
+       }
+
+#torbverbina{
+    text-decoration: none;
+    position:absolute;
+    top:83%;
+    left:32%;
+}       
+
+#barajos{
+    text-decoration:none;
+    background-color: rgb(202, 142, 133);
+    position:absolute;
+    top:305%;
+    left:0%;
+}
+
+#autor:hover{
+    text-decoration: none;
+}
+
+
+#flori{
+    position:absolute;
+    height:320px;
+    width:400px;
+    top:252%;
+    left:70%;
+}
+
+#flori:hover{
+    filter:brightness(75%);
+}
+
+#vraci{
+    text-decoration:none;
+    background-color:rgba(226, 213, 187, 0.738);
+    position:absolute;
+    top:250%;
+    left:36%;
+    height:300px;
+    width:470px;
+    border-radius:50%;
+}
+
+#tvraci{
+    position:absolute;
+    top:25%;
+    left:-3%;
+}
+
+#vraci:hover{
+    background-color: antiquewhite;
+}
+
+#fleming{
+    position: absolute;
+    top:21.5%;
+    left:1.3%;
+    height:550px;
+    width:auto;
+}
+
+#titlupenicilina{
+    position:absolute;
+    font-size:40px;
+    top:20%;
+    left:58%;
+}
+
+#textpenicilina{
+    text-decoration:none;
+    position:absolute;
+    top:35%;
+    left:55%;
+}
+
+#adn{
+    height:450px;
+    width:720px;
+    position:absolute;
+top:106%;
+left:52.9%;
+}
+
+#t{
+    position:absolute;
+    font-size:40px;
+    top:100%;
+    left:2%;
+}
+
+#textadn{
+    text-decoration:none ;
+    left:1%;
+    top:115%;
+}
+
+#divholera{
+    background-color: rgb(43, 43, 43);
+    height:670px;
+    width:765px;
+    position:absolute;
+    top:18.9%;
+    left:0%;
+}
+
+#holera{
+    height:300px;
+    width:auto;
+    position:absolute;
+    top:5%;
+    left:20%;
+}
+
+#holera:hover{
+    filter:brightness(120%);
+}
+
+#textholera{
+    text-decoration:none;
+    color:#fff;
+    position:absolute;
+    top:54%;
+    left:-5%;
+}
+
+#gripa{
+position:absolute;
+height:300px;
+width:auto;
+top:23%;
+left:57.5%;
+}
+
+#gripa:hover{
+    filter:brightness(120%);
+}
+
+#textgripa{
+    text-decoration: none;
+    position:absolute;
+    top:69%;
+    left:53%;
+}
+
+#Test{
+    position:absolute;
+    left:3%;
+    top:24%;
+    width:600px;
+    height:auto;
+}
+
+#intrebari{
+    position:absolute;
+    top:26%;
+    left:45%;
+    height:auto;
+    width:800px;
+}
+
+#carte{
+    position:absolute;
+    height:350px;
+    width:350px;
+    filter: brightness(85%);
+    top:24%;
+    left:3%;
+    
+}
+
+#tcarte{
+    position:absolute;
+    top:72%;
+    left:6%;
+}
+
+#carte:hover{
+    filter:opacity(80%);
+}
+
+#wiki{
+    position: absolute;
+    top:30%;
+    left:37%;
+}
+
+#danaila{
+    position: absolute;
+    height:400px;
+    width:auto;
+    top:24%;
+    left:75%;
+}
+
+#danaila:hover{
+    filter:brightness(120%);
+}
+
+#tdanaila{
+    position:absolute;
+    top:78%;
+    left:75%;
+}
+
+#rmaria{
+    position:absolute;
+    top:44%;
+    left:37%;
+}
+
+#york{
+    position:absolute;
+    left:37%;
+    top:56%;
+}
+
+#historia{
+    position:absolute;
+    left:37%;
+    top:71%;
+}
+
+#insulina{
+    height:550px;
+    width:auto;
+    position:absolute;
+    top:176%;
+}
+
+#tins{
+    position:absolute;
+    top:172%;
+    left:58%;
+    font-size:40px;
+}
+
+#textins{
+    text-decoration: none;
+    position: absolute;
+    top:190%;
+    left:55%;
+}
